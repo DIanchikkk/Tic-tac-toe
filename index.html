@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Крестики-нолики</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="intro" class="intro">
+    <h1 class="intro__title">Крестики-нолики</h1>
+    <button id="start__button" class="intro__button">Начать игру</button>
+  </div>
+
+  <div id="gameboard" class="gameboard hidden"></div>
+  <div id="status" class="status hidden"></div>
+  <div id="overlay" class="overlay hidden"></div>
+
+  <div id="result" class="result hidden">
+    <h2 id="result-text" class="result__text"></h2>
+    <img src="" alt="Результат игры" id="result-img" class="result__img">
+  </div>
+
+  <button id="restart__button" class="button hidden">Перезапустить</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
